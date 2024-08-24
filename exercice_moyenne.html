@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+       
+    </head>
+    <body>
+        <script>
+          
+          var n1=12,n2=10,n3=14;
+          var moy=(n1+n2+n3)/3;
+
+          document.write(moy);
+          document.write("<br>");
+/*
+         if(moy>=16==true){
+             document.write("très bien");
+         }
+         else if(moy>=14==true){
+            document.write("bien");
+         }
+         else if(moy>=12){
+            document.write("assez bien");
+         }
+         else if(moy>=10){
+            document.write("passable");
+         }
+         else{
+            document.write("sous la moyenne");
+         }
+*/
+         //méthode 2
+
+         if(moy<10){
+            document.write("sous la moyenne");
+         }
+         else if(moy>=10 && moy<12){
+            document.write("passable");
+         }
+         else if (moy>=12 && moy<14){
+            document.write("assez bien");
+         }
+         else if(moy>=14 && moy<16){
+            document.write("bien");
+         }
+         else{
+            document.write("très bien");
+         }
+        </script>
+    </body>
+</html>
